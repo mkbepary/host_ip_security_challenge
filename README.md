@@ -7,3 +7,13 @@ The microelectronics security challenge at HOST aims to promote hardware securit
 
 #### IP Security Track (Track Co-Chairs: Jiafeng Xie and Aviv Barkai)
 The threats toward hardware IP come from many malicious sources, including side-channel information leakage and fault injection attacks. The side-channel attacks using power analysis can expose a cryptosystem's secret and have been studied extensively over the past two decades. Differential power analysis exploits the correlation between leakage power with the input data. The fault attacks mainly refer to injecting malicious faults to the hardware IP by the hackers for possible critical message corruption/stealing. Both attacks are harmful to the hardware IP design community and have recently drawn significant attention from various parties. With this perspective, we propose launching a competition to enable the student community to analyze a vulnerable IP and then implement patches to address the threat.
+
+
+#### Power Side-channel Attack using ChipWhisperer CW305 Lite FPGA Board
+
+Resources:
+1. https://wiki.newae.com/Tutorial_CW305-1_Building_a_Project
+2. https://wiki.newae.com/Tutorial_CW305-2_Breaking_AES_on_FPGA
+3. https://wiki.newae.com/Correlation_Power_Analysis
+4. https://chipwhisperer.readthedocs.io/en/latest/index.html
+5. https://github.com/newaetech/chipwhisperer-jupyter/tree/master/courses/sca101
